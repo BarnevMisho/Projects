@@ -1,0 +1,6739 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2c3ed5de-6fa4-4223-a878-2b33dab98845")
+	(paper "A4")
+	(title_block
+		(title "BT_Mihail_Barnev")
+		(date "2026-04-28")
+		(rev "R1")
+		(company "ETH Zurich")
+	)
+	(lib_symbols
+		(symbol "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FH34SRJ-10S-0.5SH_50_"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "FH34SRJ10S05SH50"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Hirose"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FH34SRJ-10S-0.5SH_50__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -22.86 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 191.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af1b82d-0dc8-487f-96da-013b5f130714")
+	)
+	(junction
+		(at 110.49 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17aee047-65a4-4f71-821d-7f01723f09ea")
+	)
+	(junction
+		(at 217.17 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "181c2585-b0f3-4701-ba20-b37a9585a61f")
+	)
+	(junction
+		(at 72.39 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ae342d6-e219-472e-92ff-e3e4ff40e75a")
+	)
+	(junction
+		(at 72.39 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca7f941-b859-4881-91cd-73d736b7919f")
+	)
+	(junction
+		(at 102.87 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1ff880-ccbf-48f7-ae7a-434eea4f59da")
+	)
+	(junction
+		(at 186.69 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44dfd8eb-8d34-4b6b-aff3-528e9291281c")
+	)
+	(junction
+		(at 191.77 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f3b7fe-fd27-41c3-9cbc-bf1692c0b4e6")
+	)
+	(junction
+		(at 106.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59a31d49-2561-488d-8225-83a7723277d7")
+	)
+	(junction
+		(at 217.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "736a1856-6f30-4ff3-b40c-08eb4f2d3e85")
+	)
+	(junction
+		(at 182.88 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a0de4f-48e3-48f2-9753-7099a6959e26")
+	)
+	(junction
+		(at 191.77 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bc934d-4ab6-4746-8cc6-5d049d1fa661")
+	)
+	(junction
+		(at 97.79 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a87041-a81d-466f-829a-f16d3fb9a94b")
+	)
+	(junction
+		(at 97.79 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c439ca1-5e98-4d23-9142-6c3f1da52980")
+	)
+	(junction
+		(at 217.17 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6155be2-3e82-4898-a23e-7c97dd9800ac")
+	)
+	(junction
+		(at 72.39 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab53cf3c-0b9f-4525-b30b-b28a74ffda3b")
+	)
+	(junction
+		(at 97.79 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b983915a-531c-4b89-802e-e849e6303c39")
+	)
+	(junction
+		(at 179.07 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecd792ed-8fc9-402e-8e04-a2999f123a35")
+	)
+	(wire
+		(pts
+			(xy 236.22 41.91) (xy 224.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cf0b8e-4ea5-4e71-8e36-bc3cdfb269ae")
+	)
+	(wire
+		(pts
+			(xy 97.79 127) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091758be-e7d9-4fd0-ac45-b9de20e6142c")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf98f5f-0a87-4039-ba8c-b853432eee20")
+	)
+	(wire
+		(pts
+			(xy 175.26 132.08) (xy 191.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a98862-f4a9-4e03-9185-546655b70be9")
+	)
+	(wire
+		(pts
+			(xy 53.34 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc83325-9d6e-473f-ae7a-bdfcdba80e13")
+	)
+	(wire
+		(pts
+			(xy 236.22 88.9) (xy 224.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbaad38-d9ae-4779-9519-e0d2be384ed7")
+	)
+	(wire
+		(pts
+			(xy 53.34 127) (xy 64.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efeb6e1-a91d-4fa5-9679-d050d4efd42e")
+	)
+	(wire
+		(pts
+			(xy 191.77 41.91) (xy 182.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221e12e5-8aaf-44f1-8c0f-7a963cd4c432")
+	)
+	(wire
+		(pts
+			(xy 72.39 31.75) (xy 72.39 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265dcc6f-b8bc-4932-b88a-3639bdcfa36a")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a08d49-ea5c-4e5b-8396-cf00e0d53169")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 97.79 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29930669-24b7-4544-a2e0-43460e7f1c85")
+	)
+	(wire
+		(pts
+			(xy 53.34 76.2) (xy 64.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d1afbb-39af-4e50-b105-5d8ef97642e0")
+	)
+	(wire
+		(pts
+			(xy 236.22 78.74) (xy 224.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e216937-fec7-40eb-864f-bc8c3cdbe2ae")
+	)
+	(wire
+		(pts
+			(xy 97.79 41.91) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2feb6c7a-7801-433a-a1fa-09b56472592e")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b33446-c015-45ac-8ec1-a5c43430ba1a")
+	)
+	(wire
+		(pts
+			(xy 102.87 44.45) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31937205-1472-4e92-bd69-4927e865f085")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33786c14-5005-491e-ba92-3afa3b0f1f5d")
+	)
+	(wire
+		(pts
+			(xy 236.22 96.52) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35adbd60-bf0f-4470-8aad-a46891b40082")
+	)
+	(wire
+		(pts
+			(xy 191.77 134.62) (xy 191.77 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393d2e9a-f077-4a6f-a927-41a0aaff9955")
+	)
+	(wire
+		(pts
+			(xy 236.22 116.84) (xy 224.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae0848f-c1fc-47e0-af2a-1f405ac78548")
+	)
+	(wire
+		(pts
+			(xy 217.17 31.75) (xy 217.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c957c23-5277-4f66-82e7-4942e1ce3b23")
+	)
+	(wire
+		(pts
+			(xy 236.22 52.07) (xy 224.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf49f39-e9f0-4dda-bd00-98ee6244a20f")
+	)
+	(wire
+		(pts
+			(xy 186.69 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e138fc1-4d2c-4783-8b44-654d4e5b0dfc")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 72.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41720fa9-3bf5-4c8f-a999-11ef81834683")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b074c4-9e28-4583-a72f-e536ab1cd551")
+	)
+	(wire
+		(pts
+			(xy 53.34 44.45) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427c131a-ce58-40a4-b004-b4df77383dea")
+	)
+	(wire
+		(pts
+			(xy 110.49 36.83) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ed67d2-8bb0-4db5-b2ad-0141e964ea2e")
+	)
+	(wire
+		(pts
+			(xy 97.79 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c647ad-5d8d-413b-93fe-6b7a07fe2bf4")
+	)
+	(wire
+		(pts
+			(xy 179.07 36.83) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ed3f69-c674-4da9-916c-dcf1246c9aec")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 64.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b80c213-8367-4778-8349-6a7271292f31")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 191.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf8bb01-abd3-42e9-8b47-0a57f044e2a0")
+	)
+	(wire
+		(pts
+			(xy 53.34 124.46) (xy 64.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f484975-13c5-4395-98a9-de7c34986d56")
+	)
+	(wire
+		(pts
+			(xy 97.79 52.07) (xy 97.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5074f5f2-6e01-489e-9e58-aae7e502102f")
+	)
+	(wire
+		(pts
+			(xy 236.22 76.2) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530718db-7889-4d94-b9a7-2439c82a6b09")
+	)
+	(wire
+		(pts
+			(xy 53.34 52.07) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5414a3a3-111b-46b0-99ae-1b840ad78e58")
+	)
+	(wire
+		(pts
+			(xy 236.22 46.99) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546df08e-f901-429e-ae7a-86bb95153cb0")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57618312-53e5-4e3e-89d4-d0bea876b674")
+	)
+	(wire
+		(pts
+			(xy 182.88 124.46) (xy 191.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a0fa39-6803-42db-8efc-08eac91a16e6")
+	)
+	(wire
+		(pts
+			(xy 110.49 119.38) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba33328-ec53-4230-b31d-cbcf6ce24d8d")
+	)
+	(wire
+		(pts
+			(xy 110.49 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de99d0e-d3ce-4ec3-86d0-f7d23b1fdedd")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ca3701-0831-4b95-b44f-ff67c29e443c")
+	)
+	(wire
+		(pts
+			(xy 191.77 52.07) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629f7bfe-0365-47ff-a1fa-a1f7e5dfcb24")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 64.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67947f5b-ea6d-4801-a54d-0566d8750725")
+	)
+	(wire
+		(pts
+			(xy 236.22 54.61) (xy 224.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaf23ff-a61e-4850-ac3b-0f2aa8532378")
+	)
+	(wire
+		(pts
+			(xy 179.07 119.38) (xy 191.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7342044a-70e5-4cac-bb19-0dea34820184")
+	)
+	(wire
+		(pts
+			(xy 191.77 93.98) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7343c6e2-7291-425d-b85e-ac7a1a6f0fef")
+	)
+	(wire
+		(pts
+			(xy 236.22 127) (xy 224.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f3dd14-b6c8-4d15-8bf5-70094403496e")
+	)
+	(wire
+		(pts
+			(xy 53.34 116.84) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762eee03-5395-4e89-bb06-a7b772764275")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 179.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c70a84c-be1f-4cb3-bda0-82b3dceca546")
+	)
+	(wire
+		(pts
+			(xy 97.79 124.46) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d247b2b-837d-41c6-bc96-480312680005")
+	)
+	(wire
+		(pts
+			(xy 186.69 86.36) (xy 186.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df9fb9d-4413-4797-a123-15b082376180")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f366bb9-5725-400f-bb73-ce40a4878e45")
+	)
+	(wire
+		(pts
+			(xy 236.22 137.16) (xy 224.79 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f52166a-38d0-4512-b4b5-1ccbca8d77ed")
+	)
+	(wire
+		(pts
+			(xy 53.34 36.83) (xy 64.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825497a6-64cd-450b-b3b7-aea2c9635452")
+	)
+	(wire
+		(pts
+			(xy 175.26 49.53) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c597e0-5bf5-4c55-8620-3c47f6e85fe0")
+	)
+	(wire
+		(pts
+			(xy 175.26 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7edb7a-5191-4fb2-a35d-9570305b3db4")
+	)
+	(wire
+		(pts
+			(xy 236.22 44.45) (xy 224.79 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da33306-05ef-4b89-9012-2ec982207979")
+	)
+	(wire
+		(pts
+			(xy 53.34 78.74) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb0e584-8150-45c4-bf20-a3a4e990e35d")
+	)
+	(wire
+		(pts
+			(xy 182.88 41.91) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efde748-8427-451c-b6eb-a51d6659f48a")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0a8c48-dca5-4419-a547-041be0877b12")
+	)
+	(wire
+		(pts
+			(xy 175.26 129.54) (xy 191.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92929321-1a45-4b54-886b-5efb05e68e50")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 182.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b2d144-3390-47f0-ab1d-81365655e326")
+	)
+	(wire
+		(pts
+			(xy 236.22 36.83) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9619fadb-90b4-419a-8fba-b8f055a7dac1")
+	)
+	(wire
+		(pts
+			(xy 236.22 34.29) (xy 224.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97caf46e-d0ff-48e3-b900-20b54723584b")
+	)
+	(wire
+		(pts
+			(xy 175.26 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b13612f-9e7d-403a-8075-552a6ff28193")
+	)
+	(wire
+		(pts
+			(xy 236.22 93.98) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f06bf80-e0e6-4fb1-8697-889cd944dd64")
+	)
+	(wire
+		(pts
+			(xy 53.34 119.38) (xy 64.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20c3142-0de1-459b-9158-a7659267e550")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a494cc3a-6970-444f-b0f6-70c9d93afe9a")
+	)
+	(wire
+		(pts
+			(xy 53.34 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abed1c9c-3567-4c92-b1b4-93600274687b")
+	)
+	(wire
+		(pts
+			(xy 53.34 96.52) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefe7f0a-2c62-42c7-847a-a8b5bae1afd5")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af225161-6f08-4b63-a28e-ec1d884d4daf")
+	)
+	(wire
+		(pts
+			(xy 53.34 93.98) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f875f2-d1ea-4a59-90e2-fc788f3f739a")
+	)
+	(wire
+		(pts
+			(xy 217.17 73.66) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe433a-717f-4600-83d2-7e67e1d9c95f")
+	)
+	(wire
+		(pts
+			(xy 53.34 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc93f0e-e53c-4449-b884-595b93d549dd")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 179.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd0d964-e139-4ec2-9d3f-14506cde6e58")
+	)
+	(wire
+		(pts
+			(xy 97.79 44.45) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf8a5eb-77cf-4ecc-b949-959d2423da06")
+	)
+	(wire
+		(pts
+			(xy 97.79 36.83) (xy 110.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb72a29-53fb-4149-8625-edd9f336b707")
+	)
+	(wire
+		(pts
+			(xy 53.34 137.16) (xy 64.77 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0133f79-e380-4acc-84c9-562ea95a4e3e")
+	)
+	(wire
+		(pts
+			(xy 97.79 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28eead3-2709-42b2-b5d3-1885c210266e")
+	)
+	(wire
+		(pts
+			(xy 186.69 86.36) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b04cf9-0118-4fca-a671-1d4107a40018")
+	)
+	(wire
+		(pts
+			(xy 236.22 119.38) (xy 224.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bb1610-af36-4380-b9be-4b336cb9385b")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca759d9c-2d01-4bba-a88f-06185126322e")
+	)
+	(wire
+		(pts
+			(xy 53.34 129.54) (xy 64.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0b0228-0068-4a78-9b54-014c190c7830")
+	)
+	(wire
+		(pts
+			(xy 217.17 114.3) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1411f0d-5a4f-4339-86f6-6fcf1bccfc96")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45dd24b-c0c9-4db2-97bd-d4e22e0ad9af")
+	)
+	(wire
+		(pts
+			(xy 97.79 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d916d849-fca2-46ff-8189-6b5f9ca5ea72")
+	)
+	(wire
+		(pts
+			(xy 236.22 86.36) (xy 224.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96efd81-795b-4a7c-89b9-dd2900a0517d")
+	)
+	(wire
+		(pts
+			(xy 97.79 119.38) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da08cd82-1460-4fe5-8266-9b8d28c62249")
+	)
+	(wire
+		(pts
+			(xy 97.79 93.98) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24ecf82-e4a5-4fc1-b54e-5f1914a2e1f8")
+	)
+	(wire
+		(pts
+			(xy 236.22 83.82) (xy 224.79 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52fabec-01c4-4845-8807-8bb306b90c0a")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 191.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e544a605-0b82-43d9-841d-850d094e5384")
+	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 191.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74b8a2f-54a5-4830-8d56-c20cc6ec14cf")
+	)
+	(wire
+		(pts
+			(xy 106.68 41.91) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9249926-80da-4100-98ea-fb4356e45b61")
+	)
+	(wire
+		(pts
+			(xy 97.79 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec965de3-295c-40d9-ab9e-0d97b412a4b7")
+	)
+	(wire
+		(pts
+			(xy 236.22 129.54) (xy 224.79 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf67e0-f6ca-42bc-8698-56d5caf87f5a")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dff9e7-ec4d-446c-b14d-5946c9ab42ca")
+	)
+	(wire
+		(pts
+			(xy 236.22 124.46) (xy 224.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e7b25c-1da9-487f-b043-f51185fa305d")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33dc703-707d-4499-a617-f1602b6d9f28")
+	)
+	(wire
+		(pts
+			(xy 97.79 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f509db21-88a5-4ae2-9fd5-954b2325b937")
+	)
+	(wire
+		(pts
+			(xy 236.22 134.62) (xy 224.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ceeae1-dd0c-45a1-a519-e2b154ab9faf")
+	)
+	(wire
+		(pts
+			(xy 186.69 86.36) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f902c683-7a04-47a3-9f21-0ef8f81249a3")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc236621-d84b-4a67-8344-f7cf2940f89d")
+	)
+	(label "NCS_1_1"
+		(at 64.77 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0049dd96-2618-4dde-aace-bb5b1dd05aa6")
+	)
+	(label "SPI1_MOSI"
+		(at 64.77 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18cdadaa-cb6a-4d16-9d88-5c763e81abed")
+	)
+	(label "SPI1_MISO"
+		(at 64.77 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32ad1940-2336-4090-a347-65f33a352343")
+	)
+	(label "SPI4_SCK"
+		(at 224.79 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33aed8c6-afa0-4833-ad82-87fc540e2c21")
+	)
+	(label "SPI1_MISO"
+		(at 64.77 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "415fcee3-9e0e-487b-8c37-75d291a19e91")
+	)
+	(label "INT_1_2"
+		(at 64.77 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "419f3871-e625-4c20-8830-2a2c41f4c4d3")
+	)
+	(label "SPI1_SCK"
+		(at 64.77 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41f26903-28a1-462a-ab7e-30cc1bad249b")
+	)
+	(label "SPI4_MISO"
+		(at 224.79 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "465bec18-b747-4a03-b94c-e93ae8b60e4b")
+	)
+	(label "SPI4_MOSI"
+		(at 224.79 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b880f08-100f-40dc-9ae8-c07ade5dbdf5")
+	)
+	(label "SPI1_MOSI"
+		(at 64.77 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eca0184-4480-4cb3-8e31-16870179d8b0")
+	)
+	(label "SPI4_MOSI"
+		(at 224.79 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e03ac84-2b32-40cd-b7ce-563173e310ad")
+	)
+	(label "NCS_1_3"
+		(at 64.77 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cc52333-5114-426a-a23b-1aeb3e1ae8e4")
+	)
+	(label "SPI4_SCK"
+		(at 224.79 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7da1520a-c8b6-4a16-a197-8e1507ed6ffa")
+	)
+	(label "NCS_1_2"
+		(at 64.77 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82411f1c-54aa-4483-ab2f-5dc6177432e8")
+	)
+	(label "SPI4_MISO"
+		(at 224.79 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88b6e491-61f0-4d3f-af8a-b173c2b98b83")
+	)
+	(label "INT_4_3"
+		(at 224.79 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5f9ba5d-3122-4aaa-9f90-12244237a159")
+	)
+	(label "SPI4_MISO"
+		(at 224.79 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6a4c138-0e05-4fba-bdb6-a6e61190fde9")
+	)
+	(label "SPI1_SCK"
+		(at 64.77 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad361b47-240b-4b28-9afe-35c7726f2448")
+	)
+	(label "INT_4_1"
+		(at 224.79 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7c08986-779b-418d-952f-34006ac06fc1")
+	)
+	(label "INT_4_2"
+		(at 224.79 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b87ae924-69e9-4cf6-a942-c3f1ec6ec6e1")
+	)
+	(label "NCS_4_2"
+		(at 224.79 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb956225-c7dd-41af-9844-14f4984aab87")
+	)
+	(label "SPI1_SCK"
+		(at 64.77 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be76ece6-6853-45ad-94a2-be1cbb85f227")
+	)
+	(label "INT_1_1"
+		(at 64.77 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf5cb440-b5ce-4e75-b3f9-755c7e16d04b")
+	)
+	(label "SPI1_MISO"
+		(at 64.77 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d393db61-f265-47d3-9d5c-c0e2ede8e8c1")
+	)
+	(label "INT_1_3"
+		(at 64.77 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d59883c9-3694-4b4f-b9e7-ce753562b2ec")
+	)
+	(label "SPI1_MOSI"
+		(at 64.77 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8a44dd3-49d5-4f04-92c1-0073aff4afde")
+	)
+	(label "NCS_4_3"
+		(at 224.79 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e28a5edb-c894-47ca-b4b2-97d428622ed6")
+	)
+	(label "NCS_4_1"
+		(at 224.79 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7d466f5-3d39-4624-b0f2-edb1dd9656f8")
+	)
+	(label "SPI4_SCK"
+		(at 224.79 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8d9d15c-94c7-4664-9b4c-f10ceb455c15")
+	)
+	(label "SPI4_MOSI"
+		(at 224.79 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa6a8acc-c1bc-4ce4-8709-8c1437593470")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "061e5799-e0e5-470e-8a9d-95ac4fc569b8")
+		(property "Reference" "#PWR038"
+			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61a3b95-4999-4432-85f2-97b88f343ea9")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11618548-6adf-4bd5-9e08-6262127dfcee")
+		(property "Reference" "#PWR0286"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c1be5fb-725a-42ae-840d-8accceaf7cba")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0286")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 191.77 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "129454ea-2579-4152-b76f-2399cb1ab78b")
+		(property "Reference" "#PWR0274"
+			(at 191.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 189.23 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4251be1c-caab-4fcc-a154-4db587894581")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 191.77 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1887f07a-be08-445a-8ddf-28111643f761")
+		(property "Reference" "#PWR0272"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 190.754 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef00bc2-c245-4458-a020-2a31a28f545b")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1be8afb3-ca75-4de8-a72e-fb452fbe07b3")
+		(property "Reference" "#PWR0333"
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5942a37e-521f-4705-b832-7ce9589645a2")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 81.28 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0af2c1-04fe-4490-ad01-2c03334a3b58")
+		(property "Reference" "#PWR0285"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3df81e0-0ed7-46b0-b266-915e1a176da6")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0285")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ccc0e68-c803-41d9-959f-9eb5d70d4062")
+		(property "Reference" "#PWR0265"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11271863-ca48-4862-8189-584d6f00846a")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d34f0b8-8308-4075-9379-6af1e512772b")
+		(property "Reference" "#PWR037"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604fb189-1ea0-4277-8ea4-6068a6ecf19f")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 224.79 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ac945f4-3873-41f7-a5f8-54181c774e66")
+		(property "Reference" "#PWR0337"
+			(at 224.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 227.584 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a94bbad8-c689-464d-9d55-4945db27f730")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0337")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_")
+		(at 72.39 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32a6d24f-aa58-471e-81d0-a9f092c89ab0")
+		(property "Reference" "J10"
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH34SRJ-10S-0.5SH_50_"
+			(at 83.82 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BachelorThesis-KiCAD:FH34SRJ10S05SH50"
+			(at 93.98 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+			(at 93.98 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+			(at 72.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 93.98 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+			(at 93.98 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+			(at 93.98 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 93.98 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+			(at 93.98 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "9357644b-4a71-477a-b3b1-1065cd5b9107")
+		)
+		(pin "2"
+			(uuid "d89d38c6-fc76-4388-9dad-99d3d80248f7")
+		)
+		(pin "6"
+			(uuid "34d418c4-16a0-4e9f-b9fc-997f08d4b452")
+		)
+		(pin "10"
+			(uuid "cfe34b42-8f3a-4f46-8362-ba3b15f32e04")
+		)
+		(pin "12"
+			(uuid "65783206-4d25-4069-8ebb-62e6dbc09eaa")
+		)
+		(pin "8"
+			(uuid "60195cbe-7639-4ed7-a44a-357a0fd20311")
+		)
+		(pin "7"
+			(uuid "d54e19d8-2a12-444e-9b9c-ac45a5c33148")
+		)
+		(pin "9"
+			(uuid "4200153b-5d41-435e-9788-5a2a4d99b304")
+		)
+		(pin "3"
+			(uuid "8864ddf6-2abd-40c2-ac34-e7486f34d098")
+		)
+		(pin "5"
+			(uuid "29b895c1-2396-486e-9c6a-d0c0b90bcb72")
+		)
+		(pin "4"
+			(uuid "b243377a-6a48-4a89-a00e-294ffe59c8bb")
+		)
+		(pin "1"
+			(uuid "2666c7b2-f67c-4b06-89ab-bf3182f676b5")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36e48567-df6f-4162-8e91-22d5e7c62b10")
+		(property "Reference" "#PWR0279"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b6b573b-6494-42ac-842a-422a729cacbc")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 116.84 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a835348-abbe-4c07-af9f-728c2f39aee0")
+		(property "Reference" "#PWR0277"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c1091d-6d64-4bce-914d-f7131d5ecfe1")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 64.77 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c63e9f2-9b6c-4f18-8cdb-d5400f708512")
+		(property "Reference" "#PWR0261"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 61.976 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b07054-68b4-4205-961b-13e3418536de")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f36903d-ce01-4090-8832-29f7a42d3498")
+		(property "Reference" "#PWR0114"
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fecb0db7-2b5b-451b-94c5-fa19e1056c16")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f48d33a-024c-49d6-8828-36545cdb7321")
+		(property "Reference" "#PWR0264"
+			(at 191.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6216002c-6680-40e3-90bf-d8d084a4e47d")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 116.84 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b1f2e7-5f95-4eec-9e45-fd6c8d9affc9")
+		(property "Reference" "#PWR0280"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555d5294-86df-4e74-b05d-fe93216dc45c")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0280")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 97.79 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d4119ef-3df6-4d9d-acc5-9ddfb5d38f37")
+		(property "Reference" "#PWR0269"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.076 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29c36c96-aae7-4cf0-ad21-c2afc2453b4f")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_")
+		(at 217.17 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52657792-f4f3-47b2-a52b-8670a482df01")
+		(property "Reference" "J13"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH34SRJ-10S-0.5SH_50_"
+			(at 206.502 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BachelorThesis-KiCAD:FH34SRJ10S05SH50"
+			(at 195.58 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+			(at 195.58 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 195.58 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+			(at 195.58 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+			(at 195.58 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 195.58 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+			(at 195.58 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "0525b9e5-3338-4744-b3eb-6f5d906f225e")
+		)
+		(pin "2"
+			(uuid "011d35ee-fa2b-4547-b973-454c04577b29")
+		)
+		(pin "6"
+			(uuid "760d83cb-3b20-42b7-9dbb-e7488ad01c5a")
+		)
+		(pin "10"
+			(uuid "d176e5fc-6827-4c0a-8489-e79e5156fa4d")
+		)
+		(pin "12"
+			(uuid "2e058241-2151-469e-9614-db28b0366dd7")
+		)
+		(pin "8"
+			(uuid "d734dbdd-9c15-462a-88fc-7ce867fb4418")
+		)
+		(pin "7"
+			(uuid "bfbd32ce-ed93-4a3d-8fac-05d7b4d01660")
+		)
+		(pin "9"
+			(uuid "317da37c-a592-4389-9e8a-95a1ae859eb7")
+		)
+		(pin "3"
+			(uuid "afcfe109-4de9-48c1-b4e7-86ffa4a87967")
+		)
+		(pin "5"
+			(uuid "bef06da9-dc38-40f2-acc1-ee26d40cbdf2")
+		)
+		(pin "4"
+			(uuid "5212bc04-4cfd-41aa-9157-f3e406e90633")
+		)
+		(pin "1"
+			(uuid "96cd7593-ad03-41dd-ae15-1510cc2b4861")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_")
+		(at 217.17 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5728dcd7-5e73-49d8-ab96-11503a6392ce")
+		(property "Reference" "J12"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH34SRJ-10S-0.5SH_50_"
+			(at 204.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BachelorThesis-KiCAD:FH34SRJ10S05SH50"
+			(at 195.58 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+			(at 195.58 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 195.58 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+			(at 195.58 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+			(at 195.58 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 195.58 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+			(at 195.58 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "33f2c0e3-3eb5-4993-b09f-0b0f795747f6")
+		)
+		(pin "2"
+			(uuid "f1c6e19e-a6fd-4e81-857a-6f6d46766092")
+		)
+		(pin "6"
+			(uuid "21e43aca-3ef6-4316-8502-9e03259556b0")
+		)
+		(pin "10"
+			(uuid "4225d730-4caf-4981-a97d-1b9d63143029")
+		)
+		(pin "12"
+			(uuid "a7b22ff6-42a0-4922-80ec-45ed826c74d0")
+		)
+		(pin "8"
+			(uuid "68a64106-d82c-4556-a6e6-5fbf00cf0699")
+		)
+		(pin "7"
+			(uuid "b1f63d30-94d6-400f-919c-cf38b7e13842")
+		)
+		(pin "9"
+			(uuid "a4009206-d427-4943-a553-c3eb9e50cd31")
+		)
+		(pin "3"
+			(uuid "b58ecb8c-bbad-4b87-ae6b-73985e47862c")
+		)
+		(pin "5"
+			(uuid "088115aa-b557-4d1c-b62f-ae0429156302")
+		)
+		(pin "4"
+			(uuid "4b4dc398-080d-4cbc-aa7b-c5650c22e426")
+		)
+		(pin "1"
+			(uuid "94663be5-b157-4766-b6a2-1864f87aea02")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 121.92 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "577474c4-81dc-442f-ad29-47c92b837a46")
+		(property "Reference" "#PWR0283"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ffb5082-26e9-47a4-a35a-cd089fcce4f2")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0283")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57daa36a-c269-4d5c-888c-6db7a2dbbc09")
+		(property "Reference" "#PWR0262"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa97013-fd68-4ca8-ad24-b35a2597d8f6")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b394605-73e8-4474-b7b9-cd6c81c5fdd7")
+		(property "Reference" "#PWR036"
+			(at 72.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c634ff-050b-4e7d-9499-6673d2d74ebc")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64811af0-4ba2-4a67-b3b4-e981c6545181")
+		(property "Reference" "#PWR039"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "425e5636-1b01-4c73-891d-e3e98f2d310f")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_")
+		(at 72.39 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66363b3f-d6d1-484a-8d8d-a5073742858c")
+		(property "Reference" "J8"
+			(at 85.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH34SRJ-10S-0.5SH_50_"
+			(at 84.328 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BachelorThesis-KiCAD:FH34SRJ10S05SH50"
+			(at 93.98 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+			(at 93.98 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+			(at 72.39 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 93.98 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+			(at 93.98 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+			(at 93.98 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 93.98 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+			(at 93.98 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "65f909b6-198f-452f-9ef4-a4abc8f4cae4")
+		)
+		(pin "2"
+			(uuid "f99c50ec-0a0f-4516-baf0-fb6f7211c0e0")
+		)
+		(pin "6"
+			(uuid "fc246109-5297-4956-84e9-a539633713ad")
+		)
+		(pin "10"
+			(uuid "671946f6-9696-478a-b242-8d40cff539fa")
+		)
+		(pin "12"
+			(uuid "9916781f-1eb7-4bb5-bcf7-b4b5352f0913")
+		)
+		(pin "8"
+			(uuid "075ac262-3dc9-41db-823e-d6b865f3de56")
+		)
+		(pin "7"
+			(uuid "24e83986-9f10-47ad-b2cc-7e978a3b7203")
+		)
+		(pin "9"
+			(uuid "0dff3f98-3562-46cf-97d0-54d7cbd713c3")
+		)
+		(pin "3"
+			(uuid "8bfc8362-c058-4200-a195-23de9cbfa1ab")
+		)
+		(pin "5"
+			(uuid "fe0c88c9-aec2-42ac-9117-fd3ab1bc358f")
+		)
+		(pin "4"
+			(uuid "e17412cf-2488-41be-adbd-47187eb4103e")
+		)
+		(pin "1"
+			(uuid "6c1a2104-70fa-4b42-8dc8-959f33663f55")
+		)
+		(instances
+			(project ""
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d7237a-83de-4a09-86a3-af33cbd1d6f1")
+		(property "Reference" "#PWR0267"
+			(at 97.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09a8199e-1ff0-47d8-9041-feed7ff24b08")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 76.2 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "788dc11a-04be-4492-8440-038d05904722")
+		(property "Reference" "#PWR0276"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ef1d7ce-4e8f-4c39-94d8-1500102d4346")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 81.28 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab91678-1c1b-4bd2-9c52-83ed9fca24ad")
+		(property "Reference" "#PWR0282"
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c14033-7676-4e6a-bd6e-6add58074682")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 97.79 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b0cdfef-a417-4e91-9918-d18ce15326a7")
+		(property "Reference" "#PWR0271"
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 99.568 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a6f99b2-df22-4c49-8770-c15da97c7295")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f272ecd-79fd-4d19-bb81-5b2d18005ed9")
+		(property "Reference" "#PWR0263"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6630d40-c3a4-432f-a84b-8030704fe263")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82030e2f-3fc2-4797-b692-f39b6561ab95")
+		(property "Reference" "#PWR0338"
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 224.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9274b2bd-add0-4c2a-9229-a7da0948170d")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 64.77 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8646792b-39aa-433d-9291-e0ae3ddaead9")
+		(property "Reference" "#PWR0259"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 61.976 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d82656dd-7008-470a-9380-f2d148fc63b9")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 39.37 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fadb0b0-f8c4-429d-a0d8-b031286d0dd6")
+		(property "Reference" "#PWR0281"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a3f966a-7b36-4e62-8a06-7bd5477aba5b")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 97.79 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abe66024-f7f0-4992-976e-e44e16d6ddd0")
+		(property "Reference" "#PWR0270"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 99.568 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03264d30-c1de-4307-ad05-b859bfdcadd2")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad3f2aee-9d98-40bd-86a1-35bf4232e402")
+		(property "Reference" "#PWR0336"
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f744624-4fae-4641-8828-15662c8c4907")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0336")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_")
+		(at 217.17 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af0367f7-7bed-4468-b34c-9a555505394e")
+		(property "Reference" "J11"
+			(at 204.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH34SRJ-10S-0.5SH_50_"
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BachelorThesis-KiCAD:FH34SRJ10S05SH50"
+			(at 195.58 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+			(at 195.58 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 195.58 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+			(at 195.58 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+			(at 195.58 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 195.58 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+			(at 195.58 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "5ec3fd2a-04a3-4a50-8dda-b350299a7fe6")
+		)
+		(pin "2"
+			(uuid "98bf50db-afa8-4750-aa50-4be323d8ef88")
+		)
+		(pin "6"
+			(uuid "3fe5eddc-b77b-441f-87e6-fce956797ef1")
+		)
+		(pin "10"
+			(uuid "657048fe-8d03-4bdb-8e37-783f95e46565")
+		)
+		(pin "12"
+			(uuid "0542bc95-dc96-4ecf-af36-0b26815f06a2")
+		)
+		(pin "8"
+			(uuid "562a8084-51ca-42f0-aff4-f4fae51af73d")
+		)
+		(pin "7"
+			(uuid "24854b30-77e9-479e-91dc-4e3578d0b8f2")
+		)
+		(pin "9"
+			(uuid "ca82b669-9eff-49bb-bf0d-a04a058acaad")
+		)
+		(pin "3"
+			(uuid "bf3df371-3f29-4788-b607-251b68fda237")
+		)
+		(pin "5"
+			(uuid "0451f4b7-658f-4e65-9a8b-45b5d1c28d26")
+		)
+		(pin "4"
+			(uuid "73baea08-6891-463a-bd5a-3f1338bb1d81")
+		)
+		(pin "1"
+			(uuid "68ec673c-7ba7-46a4-8ac7-78cefb0b13af")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10353c0-41a5-4c6c-8e34-c7e57ff444ed")
+		(property "Reference" "#PWR0278"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b7aea49-02ed-4ea3-b7f9-3e37af43990b")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 191.77 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3a619b4-df5c-4f5d-a2c4-efd8a38b60ab")
+		(property "Reference" "#PWR0273"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 189.23 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f358387-3cac-4ef8-aab7-9124927f0566")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 34.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61d1e0d-fcc6-4ce3-ad04-c67c429f17f7")
+		(property "Reference" "#PWR0275"
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f817487-d71a-4978-9652-da305130edc9")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e36e07-5d2d-46ff-a33e-4abb484a6830")
+		(property "Reference" "#PWR0115"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8832fc01-9092-4872-adf7-521383e1e7c1")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 224.79 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b944cfdf-6f23-42a2-b28e-1d44fdc239df")
+		(property "Reference" "#PWR0332"
+			(at 224.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 227.584 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 224.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee5796e1-6be1-4009-a1f9-9d4af9d423ba")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 39.37 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4c0e81-2410-4c8f-9adc-fb8bdb6106fd")
+		(property "Reference" "#PWR0284"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56895d16-b5b8-481b-b89e-7dadb6adcf0d")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 224.79 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf371fc0-ff16-40c9-9e3c-021b31e918d4")
+		(property "Reference" "#PWR0335"
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 227.584 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "018a0fd7-db20-4a91-a035-0ae381f88784")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8680482-b500-4b1a-b1a0-9e0af5422951")
+		(property "Reference" "#PWR0268"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6adb3a51-2f63-43ad-926e-6b290f0f7f19")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FH34SRJ-10S-0_5SH_50_:FH34SRJ-10S-0.5SH_50_")
+		(at 72.39 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b6c93b-5d0e-4a64-94e3-37101371bbbb")
+		(property "Reference" "J9"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH34SRJ-10S-0.5SH_50_"
+			(at 84.328 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BachelorThesis-KiCAD:FH34SRJ10S05SH50"
+			(at 93.98 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1251-5-50&productname=FH34SRJ-10S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059"
+			(at 93.98 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HIROSE(HRS) - FH34SRJ-10S-0.5SH(50) - CONNECTOR, FFC/FPC, RCPT, 10POS, 1ROW"
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 93.98 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FH34SRJ10S05SH50"
+			(at 93.98 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-10S-0.5SH50?qs=Gufeu08L%2Fl3tS2w%2F%2Fnr7aw%3D%3D"
+			(at 93.98 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 93.98 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FH34SRJ-10S-0.5SH(50)"
+			(at 93.98 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "c9047493-437e-49b0-b3b8-b22dabdd17b2")
+		)
+		(pin "2"
+			(uuid "83f0c96d-0948-4ba7-a046-6ce0473a952c")
+		)
+		(pin "6"
+			(uuid "1c6230ec-7c67-4162-a88e-8b571115ee2b")
+		)
+		(pin "10"
+			(uuid "a644f14c-9340-452a-9db0-6d220901fd9e")
+		)
+		(pin "12"
+			(uuid "4a089695-f6bd-4f00-94d8-069b0d6d180c")
+		)
+		(pin "8"
+			(uuid "4e567a1e-5621-4496-8967-405c3ee82ffe")
+		)
+		(pin "7"
+			(uuid "b30ea5d8-e84f-4d47-ab3a-b97b84b3fb59")
+		)
+		(pin "9"
+			(uuid "f45503b1-b83e-4434-9b4c-184c4d47597a")
+		)
+		(pin "3"
+			(uuid "28a24488-7cb1-4006-9b07-ce6d119468d0")
+		)
+		(pin "5"
+			(uuid "d29529c7-5b1c-4eb5-9db0-a33df3a941d7")
+		)
+		(pin "4"
+			(uuid "3735f991-9771-4acb-92fb-3fb9d30474bb")
+		)
+		(pin "1"
+			(uuid "23dc131d-1612-463b-9344-96ed184e472d")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d386f20e-d9d2-4e6e-b87f-144f264b2ace")
+		(property "Reference" "#PWR0260"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "439475cb-30ae-48ce-93cf-2cff51f38a6b")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 64.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfdea447-2010-4068-b8f9-77b7d9685f51")
+		(property "Reference" "#PWR0330"
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 61.976 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d02acb-9d66-429b-b22c-cd9725977ef6")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea9781cc-dbf3-482e-b7c3-0dfdc0d4efa1")
+		(property "Reference" "#PWR0331"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03db4594-1095-4042-a538-b6cbb90de77e")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2700931-a004-4358-bc2c-eec0b528886c")
+		(property "Reference" "#PWR0266"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117e5681-c324-4947-b100-1e5798722fba")
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 20.32)
+		(size 60.96 128.905)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02bc3cfa-5d83-47eb-a44b-3ffa3fa80e5d")
+		(property "Sheetname" "MCU_CORE"
+			(at 114.3 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 114.3 149.8096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT_1_1" input
+			(at 114.3 49.53 180)
+			(uuid "8a70a211-776a-4b5e-ba22-1fc634ddf306")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS_1_1" output
+			(at 114.3 46.99 180)
+			(uuid "2847e49e-7154-4507-bf17-a081098a0b47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS_1_3" output
+			(at 114.3 129.54 180)
+			(uuid "322a7f84-19f7-48f6-9948-8b75741bd54e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS_1_2" output
+			(at 114.3 88.9 180)
+			(uuid "4f5c5dc3-008c-4ed1-86ab-a0a9ee998070")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_1_3" input
+			(at 114.3 132.08 180)
+			(uuid "f3a3af0a-8b0c-4917-92ff-8d4ca63ddd61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS_4_2" output
+			(at 175.26 88.9 0)
+			(uuid "b1a143a9-d926-41c5-93c1-e0ca2d12637d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI4_MISO" input
+			(at 175.26 86.36 0)
+			(uuid "a070e6e3-7fb8-40b0-8240-0f407fa3ec00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NCS_4_3" output
+			(at 175.26 129.54 0)
+			(uuid "07189a63-4c79-4680-880c-e8fee638daea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_1_2" input
+			(at 114.3 91.44 180)
+			(uuid "b3bd36dc-3721-40a5-809d-81f27664e057")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_4_2" input
+			(at 175.26 91.44 0)
+			(uuid "824eda05-10e1-42a2-934f-c4a9a1900e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI4_MOSI" output
+			(at 175.26 83.82 0)
+			(uuid "cfc9e238-45e0-4774-8b7d-fa1baef71db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI4_SCK" output
+			(at 175.26 78.74 0)
+			(uuid "8bd04ac6-7acf-46cb-a65e-7e9e12cf4b8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NCS_4_1" output
+			(at 175.26 46.99 0)
+			(uuid "ba186a78-fafc-4074-9571-484726ded197")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_4_3" input
+			(at 175.26 132.08 0)
+			(uuid "ea3dd9c9-64e7-486c-be1b-10ee99986ca6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_4_1" input
+			(at 175.26 49.53 0)
+			(uuid "b5eca6c7-91d1-4254-b4e3-acd2016a3863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 114.3 83.82 180)
+			(uuid "9aaed68f-77c6-4b9a-8f6d-ef9dcd8bd44d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 114.3 86.36 180)
+			(uuid "b384f573-43fb-441d-bdb4-2cc82ec68a9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 114.3 78.74 180)
+			(uuid "2fe7d1a7-76bc-4944-8b47-8766bdca6fed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 31.75)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16b14972-1ede-4821-9dcb-746a84237e93")
+		(property "Sheetname" "Sensor_1"
+			(at 27.94 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ToF_Sensorboard.kicad_sch"
+			(at 27.94 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLK" input
+			(at 53.34 46.99 0)
+			(uuid "72847242-f4fe-4755-ad2e-a1dd238de960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 53.34 41.91 0)
+			(uuid "facb411a-b736-4a23-a30e-ff81a38c1ba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NCS" input
+			(at 53.34 52.07 0)
+			(uuid "fb626fbe-d6e2-4d93-ab61-817a18290fcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 53.34 44.45 0)
+			(uuid "b8d8c025-c9ee-4422-9559-9de816d34088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" output
+			(at 53.34 54.61 0)
+			(uuid "e6773876-34a5-4da3-beb3-ebdf320a8e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3VA" passive
+			(at 53.34 34.29 0)
+			(uuid "9c81a377-1836-4d34-8ad3-aec3844b4e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 53.34 36.83 0)
+			(uuid "fb70345b-cc1b-4b70-b8c8-3d0f1b894975")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 73.66)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6accb2ed-ed72-4e5c-8c28-8261f896b197")
+		(property "Sheetname" "Sensor_5"
+			(at 236.22 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ToF_Sensorboard.kicad_sch"
+			(at 236.22 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLK" input
+			(at 236.22 88.9 180)
+			(uuid "b4252bef-f896-43af-bf3f-272eecb5c14e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 236.22 83.82 180)
+			(uuid "feef1809-d930-4036-a87f-246f24dc09c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS" input
+			(at 236.22 93.98 180)
+			(uuid "9ebcb91e-f183-4e97-840d-664bcdbc6a64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 236.22 86.36 180)
+			(uuid "2f1febba-bf7d-427d-9823-8867e22bd045")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 236.22 96.52 180)
+			(uuid "17987377-be1a-4f43-bd77-1494cb51d5c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3VA" passive
+			(at 236.22 76.2 180)
+			(uuid "c5d95f49-7887-49d3-8fef-f1bba6bc52b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 236.22 78.74 180)
+			(uuid "04ac2d3b-9f76-4889-8130-dbc7694c73e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 114.3)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bab57614-acf3-477e-9f4a-a88973526912")
+		(property "Sheetname" "Sensor_6"
+			(at 236.22 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ToF_Sensorboard.kicad_sch"
+			(at 236.22 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLK" input
+			(at 236.22 129.54 180)
+			(uuid "a84a35c2-11cf-44c5-8889-685af1bbb9f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 236.22 124.46 180)
+			(uuid "36f92b81-7a64-48f9-95eb-4ca1d349afd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS" input
+			(at 236.22 134.62 180)
+			(uuid "9546f421-b8f6-495a-ae2b-73a10c66ab16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 236.22 127 180)
+			(uuid "50683ab3-e423-4c1a-a5a3-4268f7ac5324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 236.22 137.16 180)
+			(uuid "d626c5b9-d710-4c2c-8bd5-ef471a11d6ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3VA" passive
+			(at 236.22 116.84 180)
+			(uuid "4e20ba59-e5ff-4a8c-b281-394648349baa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 236.22 119.38 180)
+			(uuid "f89021a0-6a26-4f62-92d1-45d71a283e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 73.66)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df9a4e2f-9385-4622-8ac9-a9de1ad3e1ab")
+		(property "Sheetname" "Sensor_2"
+			(at 27.94 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ToF_Sensorboard.kicad_sch"
+			(at 27.94 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLK" input
+			(at 53.34 88.9 0)
+			(uuid "5b9ab4aa-0438-44ac-8e6e-17338c2ae888")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 53.34 83.82 0)
+			(uuid "542c44c4-b8ee-4f5e-a671-1e48fc11cd3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NCS" input
+			(at 53.34 93.98 0)
+			(uuid "d77b9681-1279-470b-abb1-5f981aa3b9bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 53.34 86.36 0)
+			(uuid "fab43c92-d634-4b1e-a36d-4a78310c9d09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" output
+			(at 53.34 96.52 0)
+			(uuid "e24bcfd0-e360-4dd6-8972-92c88c569043")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3VA" passive
+			(at 53.34 76.2 0)
+			(uuid "0bc8b044-6e09-4661-bed8-2082c2dcf96e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 53.34 78.74 0)
+			(uuid "14df4138-4ba7-4cc7-8d9d-c37a1f179cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 114.3)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa26bfc1-bc98-4d3b-9eed-4356bbaa7464")
+		(property "Sheetname" "Sensor_3"
+			(at 27.94 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ToF_Sensorboard.kicad_sch"
+			(at 27.94 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLK" input
+			(at 53.34 129.54 0)
+			(uuid "8991f34c-c2b7-4354-b469-dda1162f40fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 53.34 124.46 0)
+			(uuid "e5eca243-af6c-4ec0-aa20-aaebf41f4799")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NCS" input
+			(at 53.34 134.62 0)
+			(uuid "cf671023-2be7-4c87-a291-c04e7aaf67e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 53.34 127 0)
+			(uuid "720dec31-653c-43b1-8e9d-5649f6046601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" output
+			(at 53.34 137.16 0)
+			(uuid "2387f85d-de70-43a7-8282-fe53ae4fa4f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3VA" passive
+			(at 53.34 116.84 0)
+			(uuid "b3fd6779-f7bd-4752-8d7e-f645e94f050d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 53.34 119.38 0)
+			(uuid "bffcd739-99fd-43b2-b2bc-31ce7192c2ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 31.75)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fde2c5a7-e800-4ec8-a271-b737b016a1b9")
+		(property "Sheetname" "Sensor_4"
+			(at 236.22 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ToF_Sensorboard.kicad_sch"
+			(at 236.22 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCLK" input
+			(at 236.22 46.99 180)
+			(uuid "0749235d-13bf-46b9-a78d-e93ac9ba26f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 236.22 41.91 180)
+			(uuid "a8f7d35f-0217-484f-962d-973368e354b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NCS" input
+			(at 236.22 52.07 180)
+			(uuid "a5209bcf-0386-4a59-b1ad-67709b76120f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 236.22 44.45 180)
+			(uuid "d0094131-cc7a-4987-88fe-084a1483b0d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 236.22 54.61 180)
+			(uuid "21d85479-d5ba-4ea2-8c38-fc9a4e4aa2c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3VA" passive
+			(at 236.22 34.29 180)
+			(uuid "53f88b0a-6897-47d6-81f6-4dd452237a16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 236.22 36.83 180)
+			(uuid "165a8e5e-eb5a-4b5f-a193-7181edd76716")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BachelorThesis"
+				(path "/2c3ed5de-6fa4-4223-a878-2b33dab98845"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "ETH.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "32EB75F205056DBD82711B52F2948E87")
+		)
+	)
+)

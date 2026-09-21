@@ -1,0 +1,233 @@
+(footprint "ESDA7P601U1M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1610")
+	(tags "Diode Clamping")
+	(property "Reference" "D**"
+		(at -0.275 0 0)
+		(layer "F.SilkS")
+		(uuid "7299c2f0-4a6e-4e59-ba11-60e47596697f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ESDA7P601U1M"
+		(at -0.275 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8add44db-bf5c-4ecc-970f-b28e65555515")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b156bbc-d92c-409b-912f-4abefb288589")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3463e1fe-5b71-497c-8ea1-3fed681a8f22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -0.1)
+		(end -1.4 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a9bb6a2-f789-441e-a9c2-0b0dcf258efe")
+	)
+	(fp_line
+		(start -1.4 0)
+		(end -1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a50db988-13d4-4679-a1a1-9892f7719f0a")
+	)
+	(fp_line
+		(start -0.1 -0.5)
+		(end 0.1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "799303bf-8f77-4292-9b47-c9c8e53723da")
+	)
+	(fp_line
+		(start -0.1 0.5)
+		(end 0.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0202f59b-3261-42a6-acc9-f6941c543e05")
+	)
+	(fp_arc
+		(start -1.4 -0.1)
+		(mid -1.35 -0.05)
+		(end -1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c79003d6-a790-4944-837d-8959aa916b5d")
+	)
+	(fp_arc
+		(start -1.4 0)
+		(mid -1.45 -0.05)
+		(end -1.4 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b71fddff-2846-4f44-950b-7c58581ba90a")
+	)
+	(fp_line
+		(start -2.45 -1.5)
+		(end 1.9 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "388d2aa7-a839-4c56-83e5-cc61a1e918ad")
+	)
+	(fp_line
+		(start -2.45 1.5)
+		(end -2.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad88d290-822a-41b8-ab21-32251556c197")
+	)
+	(fp_line
+		(start 1.9 -1.5)
+		(end 1.9 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8766c18a-97ad-4959-a510-347238f0acea")
+	)
+	(fp_line
+		(start 1.9 1.5)
+		(end -2.45 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5dd52a9-95a0-4113-8c62-14550c2702e3")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "942035a6-4fac-45fe-a85c-202d4c6a00e3")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end -0.8 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1873c963-0119-4dc1-85f0-095762fbf2dd")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74c8874e-5ded-476f-afe8-a776eb7f98b5")
+	)
+	(fp_line
+		(start 0.8 0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b7324dc-1855-419d-b5b5-9326c9a2d9d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -0.5 0)
+		(layer "F.Fab")
+		(uuid "52d859dd-83ee-44a9-a6b1-2d8111fbb4e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eac4b58b-4fe5-47d1-b297-2bec3a0bbb51")
+	)
+	(pad "2" smd rect
+		(at 0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5cec9e9-04af-4d18-a6ae-17a921a63337")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Hp Notebook/Documents/BachelorThesis/Components_footprint/LIB_ESDA7P60-1U1M/ESDA7P60-1U1M/3D/ESDA7P60-1U1M.stp"
+		(offset
+			(xyz 0 0 0.5699999843)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

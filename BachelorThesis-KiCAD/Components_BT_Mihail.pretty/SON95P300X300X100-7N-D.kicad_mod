@@ -1,0 +1,222 @@
+(footprint "SON95P300X300X100-7N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN6(3X3)")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1c37749b-c5db-440c-b72d-4598ec2a74a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SON95P300X300X100-7N-D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c0ab565b-b035-4d95-814f-83fed58f827c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75cbcaeb-d77d-4141-ace4-bb23829fc97d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4373a2d6-2fda-4ac3-af68-22ed9dc18597")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.9 -1.65)
+		(end -1.9 -1.525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "45f7a7fd-b2cf-4a40-b374-5797f09b5b51")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30d46645-1ecf-42ce-a6dc-84e2f998a9ce")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14ba9cdd-4ced-46b2-a693-f8e28c7e1963")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f365741-f937-4d26-a382-5042a942cc4c")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1595db36-e007-4846-9f20-01d673e0f68d")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1f83f67-25f2-4f8f-97e3-a97a23259ab0")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc4a014c-035a-435a-aea2-f25a9ae20e84")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e300ddc1-0b32-4ede-96da-8921ea138728")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4963a9a-fe1d-4573-b174-0d32e6d9841b")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc2fa993-7369-47b3-826e-bf1a744bfbb9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a6d9894-5e51-48d8-a0c5-fc8a3d0f40b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.95 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9979bdd3-a5ef-4ba4-a77e-cf5dba15b0c1")
+	)
+	(pad "2" smd rect
+		(at -1.5 0 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "381fb5d5-6852-48a2-88f9-6f3de9c7aced")
+	)
+	(pad "3" smd rect
+		(at -1.5 0.95 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e44c8fe-6c9d-4304-b1b0-41b258b2b506")
+	)
+	(pad "4" smd rect
+		(at 1.5 0.95 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ff684cdb-46de-4d2a-b4d5-57f8cc68dcc7")
+	)
+	(pad "5" smd rect
+		(at 1.5 0 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e115c1c-67d1-4329-a1ce-6595dde82d37")
+	)
+	(pad "6" smd rect
+		(at 1.5 -0.95 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c813c09b-b434-4f97-a53c-431ddea2cde2")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.75 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f145f1ad-243d-4a2e-b4fc-c47b4dfcd2f4")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Hp Notebook/Documents/BachelorThesis/Components_footprint/LIB_LD39050PU33R/LD39050PU33R/3D/LD39050PU33R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

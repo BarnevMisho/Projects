@@ -1,0 +1,194 @@
+(footprint "TL3305AF160QG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TL3305AF160QG")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at -0.358 0.874 0)
+		(layer "F.SilkS")
+		(uuid "2828db3a-cb28-469c-bc9a-174b176c7490")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TL3305AF160QG"
+		(at -0.358 0.874 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e2092118-bab0-4103-b2f0-98d24c2a1aac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "536fbf8c-01dc-4590-b806-ef40bcd97273")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a426c46c-3fd0-453a-93c7-9a4f9ba7f907")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ce04446-e11b-4fca-9fef-6a9249c50607")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f50d16a4-ed96-478a-ab7d-bde94594c9d6")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c9aef4e-254f-4ccc-a9b2-5d172b92bf8d")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fd084c4-aea5-4b10-9414-b4a742c60456")
+	)
+	(fp_circle
+		(center -5.138 1.583)
+		(end -5.138 1.652)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "336b5be9-a72a-4e10-a934-adcc1b9b634b")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "933b6823-36a6-4966-a825-24f54c87fc34")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82e763ed-ac9f-4fb5-8053-59d6ec2646bf")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b34acbd3-2160-4c73-9d71-cc838eb15510")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b11826b0-f2d8-4f39-888c-b49832433d54")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.358 0.874 0)
+		(layer "F.Fab")
+		(uuid "7258069c-d055-4cb7-a267-bb6b3cd4a311")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.6 1.5 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "014f10d3-fabe-4f24-83d9-c95d6df44c0b")
+	)
+	(pad "2" smd rect
+		(at 3.6 1.5 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90d15f5e-418b-4230-bb47-394fb433bd70")
+	)
+	(pad "3" smd rect
+		(at -3.6 -1.5 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44d1d6d2-313e-4c03-ae88-3c0c9f807e6d")
+	)
+	(pad "4" smd rect
+		(at 3.6 -1.5 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d1e73708-57b4-4fab-b031-18cc57d97f71")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Hp Notebook/Documents/BachelorThesis/Components_footprint/LIB_TL3305AF160QG/TL3305AF160QG/3D/TL3305AF160QG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

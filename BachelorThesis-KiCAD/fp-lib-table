@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Christian_Library")(type "KiCad")(uri "${KIPRJMOD}/Christian_Library.pretty")(options "")(descr ""))
+  (lib (name "Components_BT_Mihail")(type "KiCad")(uri "${KIPRJMOD}/Components_BT_Mihail.pretty")(options "")(descr ""))
+)
